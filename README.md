@@ -17,10 +17,10 @@ Repo con apuntes y ejercicios de Java para la asignatura de POO de ETSETB UPC.
 
 # Fuentes/Utilidades
 
-W3Schools:
+- W3Schools:
 https://www.w3schools.com/java/
-Web Profesor:
+- Web Profesor:
 https://people.ac.upc.edu/guerrero/poo/poo.html
-API Java 21:
+- API Java 21:
 https://docs.oracle.com/en/java/javase/21/docs/api/
 
