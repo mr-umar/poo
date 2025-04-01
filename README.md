@@ -23,4 +23,5 @@ https://www.w3schools.com/java/
 https://people.ac.upc.edu/guerrero/poo/poo.html
 - API Java 21:
 https://docs.oracle.com/en/java/javase/21/docs/api/
-
+- Tutorial:
+https://www.tutorialspoint.com/java/index.htm
