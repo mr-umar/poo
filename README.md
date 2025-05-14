@@ -27,3 +27,5 @@ https://docs.oracle.com/en/java/javase/21/docs/api/
 https://www.tutorialspoint.com/java/index.htm
 - Curso Youtube:
 https://www.youtube.com/watch?v=oz9wPzx6-ew
+- Problemas LAB:
+https://people.ac.upc.edu/guerrero/poo/Problemas_POO.pdf
