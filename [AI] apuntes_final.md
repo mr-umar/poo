@@ -19,7 +19,7 @@ Antes de las clases, están los datos. Es crucial no cometer errores aquí.
 | `boolean`| **Primitivo**| Valor de verdadero o falso. | `boolean disponible = true;`<br>`if (disponible)` |
 | `String`| **Objeto** | Cadenas de texto. **¡CRÍTICO!** Al ser un objeto, **NO** se compara con `==`. | `String nombre = "Ana";` <br> `if (nombre.equals("Ana"))` |
 
-> **Tu Error a Recordar:** En tus prácticas, has intentado comparar un `int` con `.equals()`. **Regla de oro:** Los tipos primitivos se comparan con `==`, `>` o `<`. Los objetos (como `String`) se comparan con el método `.equals()`.
+> **Tu Error a Recordar:** En tus prácticas, has intentado comparar un `int` con `.equals()`. **Regla de oro:** Los tipos primitivos se comparan con `==`, `>` o `<`. Los objetos (como `String`) se comparan con el método `.equals()`[6].
 
 ### 1.2. Interpretación del Diagrama UML
 
@@ -33,7 +33,7 @@ El UML es tu mapa del tesoro. Te dice exactamente cómo es la estructura.
 | `───▷` | **Herencia** | "Es-un". La subclase hereda todo lo `public` y `protected` de la superclase. |
 | `o───` | **Agregación** | "Tiene-un" (débil). La parte puede existir sin el todo. (Tu analogía: *la tortuga y el tortuguero*). |
 | `◆───` | **Composición** | "Posee-un" (fuerte). La parte **NO** puede existir sin el todo. (Tu analogía: *el baño y la casa*). |
-| ***Cursiva*** | **Abstracto** | **¡CLAVE!** Si una clase o método está en cursiva, es `abstract`. No puedes hacer `new` de una clase abstracta, y estás **obligado** a implementar los métodos abstractos en las subclases. |
+| ***Cursiva*** | **Abstracto** | **¡CLAVE!** Si una clase o método está en cursiva, es `abstract`[2][5]. No puedes hacer `new` de una clase abstracta, y estás **obligado** a implementar los métodos abstractos en las subclases. |
 
 ### 1.3. Las Colecciones: `List` y `Map`
 
@@ -42,8 +42,8 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 #### **`List`: La Lista Ordenada**
 *   **Concepto:** Una colección de objetos **ordenada** donde los elementos se acceden por su posición (índice) y **se permiten duplicados**.
 *   **Implementaciones Comunes:**
-    *   **`ArrayList`**: La más usada. Rápida para acceder a elementos (`.get(index)`), pero más lenta si tienes que añadir/quitar muchos elementos en medio de la lista. **Úsala por defecto si no tienes una razón para no hacerlo.**
-    *   **`LinkedList`**: Más rápida para añadir/quitar elementos en cualquier posición, pero más lenta para acceder a un elemento por su índice. Buena para algoritmos de ordenación manual.
+    *   **`ArrayList`**: La más usada. Rápida para acceder a elementos (`.get(index)`). **Úsala por defecto si no tienes una razón para no hacerlo.**[3][4]
+    *   **`LinkedList`**: Más rápida para añadir/quitar elementos en cualquier posición. Buena para algoritmos de ordenación manual[1][7].
 *   **Sintaxis Esencial:**
     ```
     // Creación
@@ -70,7 +70,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 #### **`Map`: El Diccionario Clave-Valor**
 *   **Concepto:** Una colección de pares **clave-valor**. No tiene orden. Es extremadamente rápido para encontrar un valor si tienes su clave. **No permite claves duplicadas.**
 *   **Implementación Común:**
-    *   **`HashMap`**: La implementación estándar. Rápida y eficiente. **La única que necesitas para tus exámenes.**
+    *   **`HashMap`**: La implementación estándar. Rápida y eficiente. **La única que necesitas para tus exámenes.**[2][7]
 *   **Sintaxis Esencial:**
     ```
     // Creación (Clave: String, Valor: Jugador)
@@ -94,7 +94,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
     // Recorrer los VALORES (¡muy común en tus exámenes!)
     for (Jugador jugador : jugadores.values()) { /* ... */ }
     ```
-> **Tu Error a Recordar:** Has intentado iterar sobre un `Map` como si fuera una `List` (`for (Jugador j : mapa)`). **Esto no funciona.** Debes usar `.values()` o `.keySet()`.
+> **Tu Error a Recordar:** Has intentado iterar sobre un `Map` como si fuera una `List` (`for (Jugador j : mapa)`). **Esto no funciona.** Debes usar `.values()` o `.keySet()`[4].
 
 ### 1.4. Constructores
 
@@ -110,7 +110,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
             this.partidos = new ArrayList<>(); 
         }
         ```
-    4.  **Herencia (`super()`):** Si estás en una subclase, la **primera línea** de tu constructor debe ser `super(...)` para llamar al constructor de la clase padre.
+    4.  **Herencia (`super()`):** Si estás en una subclase, la **primera línea** de tu constructor debe ser `super(...)` para llamar al constructor de la clase padre[1].
 
 ---
 
@@ -122,26 +122,26 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 
 *   **Tu Tarea:** Implementar la funcionalidad que varía entre subclases.
 *   **Reglas de Oro:**
-    1.  **`extends` es la clave:** La herencia no existe sin `public class Estudiante extends Asistente`. **Omitir esto fue uno de tus errores conceptuales más graves.**
-    2.  **`@Override` es obligatorio:** Usa **SIEMPRE** la anotación `@Override` cuando implementes un método de una superclase. Es tu seguro contra errores y un requisito conceptual.
+    1.  **`extends` es la clave:** La herencia no existe sin `public class Estudiante extends Asistente`. **Omitir esto fue uno de tus errores conceptuales más graves.**[1]
+    2.  **`@Override` es obligatorio:** Usa **SIEMPRE** la anotación `@Override` cuando implementes un método de una superclase[5]. Es tu seguro contra errores y un requisito conceptual.
     
 ### 2.2. El Algoritmo de Búsqueda y Filtro (¡El más repetido!)
 
 *   **Tu Tarea:** Encontrar elementos en una colección que cumplen una condición.
 *   **La Receta:**
     ```
-    public List<Evento> getEventosEnFecha(int fecha) {
+    public Estacion getEstacionPorNombre(String nombre) {
         // 1. Crear la lista vacía de resultados
-        List<Evento> encontrados = new ArrayList<>();
+        List<Estacion> encontrados = new ArrayList<>();
         
-        // 2. Recorrer la colección principal (en este caso, los valores de un mapa)
-        for (Evento eventoActual : this.eventos.values()) {
+        // 2. Recorrer la colección principal
+        for (Estacion estacion : this.linea.getEstaciones()) {
             
             // 3. Aplicar la condición
-            if (eventoActual.getFecha() == fecha) { // '==' porque es int
+            if (estacion.getNombre().equals(nombre)) { // para Strings, .equals()
                 
                 // 4. Si se cumple, añadir a la lista de resultados
-                encontrados.add(eventoActual);
+                encontrados.add(estacion);
             }
         }
         
@@ -154,7 +154,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 
 ### 2.3. El Algoritmo de Agregación (Construir un Resumen)
 
-*   **Tu Tarea:** Recorrer una colección para construir una nueva (casi siempre un `Map`) que resume información.
+*   **Tu Tarea:** Recorrer una colección para construir una nueva (casi siempre un `Map`) que resume información[7].
 *   **La Receta (Ej: contar tareas por estado):**
     ```
     public Map<String, Integer> getTareasPorEstado() {
@@ -188,21 +188,21 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 
 *   **Tu Tarea:** Manejar situaciones anómalas sin que el programa se caiga.
 *   **Los 4 Componentes Clave (tu duda sobre `throw` vs. `throws`):**
-    1.  **Crear tu propia excepción:** Una clase que hereda de `Exception`.
+    1.  **Crear tu propia excepción:** Una clase que hereda de `Exception`[5].
         ```
         public class TareaException extends Exception {
             public TareaException(String mensaje) { super(mensaje); }
         }
         ```
-    2.  **`throw`: Lanzar la excepción.** Es la acción, va **dentro** del método.
+    2.  **`throw`: Lanzar la excepción.** Es la acción, va **dentro** del método[1].
         ```
         if (tarea == null) { throw new TareaException("La tarea no existe."); }
         ```
-    3.  **`throws`: Avisar en la firma.** Es la advertencia, va en la **declaración** del método. Es obligatorio para excepciones "checked" (las que heredan de `Exception`).
+    3.  **`throws`: Avisar en la firma.** Es la advertencia, va en la **declaración** del método. Es obligatorio para excepciones "checked" (las que heredan de `Exception`)[3].
         ```
         public void miMetodo() throws TareaException { /* ... */ }
         ```
-    4.  **`try-catch`: Capturar y manejar.**
+    4.  **`try-catch`: Capturar y manejar.**[5]
         ```
         try { miControlador.asignarTarea("T-01"); } 
         catch (TareaException e) { System.out.println("Error: " + e.getMessage()); }
@@ -210,7 +210,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 
 ### 3.2. Lógica de Negocio Secuencial
 
-*   **Tu Tarea:** Implementar un método que realiza validaciones en orden. Si una falla, lanza excepción. Si todo pasa, modifica el estado.
+*   **Tu Tarea:** Implementar un método que realiza validaciones en orden. Si una falla, lanza excepción. Si todo pasa, modifica el estado[4][7].
 *   **La Estructura (Patrón de Búsqueda Directa + Validación):**
     ```
     public void traspasarJugador(...) throws ... {
@@ -237,7 +237,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
 
 ### 3.3. Comprobación de Tipos y Casting (El 5% Final)
 
-*   **Tu Tarea:** Tratar a objetos de una colección de manera diferente según su tipo real.
+*   **Tu Tarea:** Tratar a objetos de una colección de manera diferente según su tipo real[6][7].
 *   **La Receta de 2 Pasos:**
     1.  **La Pregunta con `instanceof`:** Pregunta si un objeto es de un tipo específico.
         ```
@@ -261,7 +261,7 @@ Son los contenedores de datos. Saber cuál usar y cómo es vital.
     2.  Recorre la colección original.
     3.  Para cada elemento, busca con un `while` la posición correcta en la lista de resultados para mantener el orden.
     4.  Inserta el elemento en esa posición con `lista.add(posicion, elemento)`.
-    5.  Devuelve la lista ordenada.
+    5.  Devuelve la lista ordenada[1][7].
     
     ```
     public List<Evento> getEventosOrdenadosPorPresentaciones() {
