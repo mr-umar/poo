@@ -1,6 +1,6 @@
 # La Guía Maestra Definitiva de POO para el Examen
 
-*Este documento es tu manual de consulta único. Contiene todo lo necesario para resolver cualquier ejercicio de tus exámenes, estructurado de lo más básico a lo más complejo. Se basa en el temario de tus exámenes, tus dudas y tus errores pasados.*
+*Lo necesario para resolver cualquier ejercicio de tus exámenes, estructurado de lo más básico a lo más complejo. Se basa en el temario de exámenes, dudas y errores pasados.*
 
 ---
 
