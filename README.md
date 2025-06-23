@@ -12,7 +12,7 @@ Repo con apuntes y ejercicios de Java para la asignatura de POO de ETSETB UPC.
 - [S3](sesion3.zip)
 - [S4](math.zip)
 - [S5](contenedores.zip)
-- Proyecto
+- [PROYECTO DECATHLON](PROYECTO)
 
 ## Fuentes/Utilidades
 
