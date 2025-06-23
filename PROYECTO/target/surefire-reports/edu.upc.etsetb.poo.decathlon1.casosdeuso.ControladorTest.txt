@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 s -- in edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest

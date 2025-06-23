@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.upc.etsetb.poo.corrector.TestSuite" time="0.077" tests="35" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/test-classes:/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/classes:/Users/JuanCarlos/.m2/repository/edu/upc/ac/BaseCorrectorDAC/2022_2023ON/BaseCorrectorDAC-2022_2023ON.jar:/Users/JuanCarlos/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/JuanCarlos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/JuanCarlos/.m2/repository/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar:/Users/JuanCarlos/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/JuanCarlos/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/JuanCarlos/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/surefire/surefirebooter-20250316120327527_3.jar /Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/surefire 2025-03-16T12-03-27_429-jvmRun1 surefire-20250316120327527_1tmp surefire_0-20250316120327527_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/test-classes:/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/classes:/Users/JuanCarlos/.m2/repository/edu/upc/ac/BaseCorrectorDAC/2022_2023ON/BaseCorrectorDAC-2022_2023ON.jar:/Users/JuanCarlos/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/JuanCarlos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/JuanCarlos/.m2/repository/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar:/Users/JuanCarlos/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/JuanCarlos/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/JuanCarlos/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/JuanCarlos"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1/target/surefire/surefirebooter-20250316120327527_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="JuanCarlos"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/Apache NetBeans 18.app/Contents/Resources/NetBeans/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/JuanCarlos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/ql/fy__c6nj5_q81xg9dx6ml8yw0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/JuanCarlos/Sincronizados/Docencia/poo/Proyectos/2024-2025-Q2/Parte1/Decathlon2025EstudiantesParte1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/JuanCarlos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.CompeticionTest" time="0.001">
+    <system-out><![CDATA[
+Competicion::Competicion(...). Valor: 2.0
+	Test 1: comprobación de existencia de atributo de nombre 'nombre' (10.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'nombre' (15.0%)
+	Test 3: comprobación de existencia de atributo de nombre 'fecha' (10.0%)
+	Test 4: comprobación del valor asignado por el corrector al atributo de nombre 'fecha' (15.0%)
+	Test 5: comprobación de existencia de atributo de nombre 'lugar' (10.0%)
+	Test 6: comprobación del valor asignado por el corrector al atributo de nombre 'lugar' (15.0%)
+	Test 7: comprobación de existencia de atributo de nombre 'numInscritos' (10.0%)
+	Test 8: comprobación del valor asignado por el corrector al atributo de nombre 'numInscritos' (15.0%)
+		Puntos obtenidos: 2.0. Puntos acumulados: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="test02_getNumInscritos" classname="edu.upc.etsetb.poo.decathlon1.CompeticionTest" time="0.002">
+    <system-out><![CDATA[
+Competicion::getNumInscritos(...). Valor: 1.0
+	Test 1: comprobar que se retorna el valor de  'numInscritos' al invocar este método (100%)
+		Puntos obtenidos: 1.0. Puntos acumulados: 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="test03_obtenerSiguienteNumInscripcion" classname="edu.upc.etsetb.poo.decathlon1.CompeticionTest" time="0.001">
+    <system-out><![CDATA[
+Competicion::obtenerSiguienteNumInscripcion(...). Valor: 3.0
+	Test 1: comprobar que se siguienteInscripción retorna el valor adecuado.
+		Puntos obtenidos: 3.0. Puntos acumulados: 6.0
+]]></system-out>
+  </testcase>
+  <testcase name="test04_toString" classname="edu.upc.etsetb.poo.decathlon1.CompeticionTest" time="0">
+    <system-out><![CDATA[
+Competicion::toString(...). Valor: 4.0
+	Test 1: comprobar que el número de línias es el que corresponde.
+	Test 2: comprobar que el texto contiene la información adecuada de Competicion.
+		Puntos obtenidos: 4.0. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0.001">
+    <system-out><![CDATA[
+MarcaEnEvento::MarcaEnEvento(...). Valor: 2.0
+	Test 1: comprobación de existencia de atributo de nombre 'evento' (16.666666666666664%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'evento' (16.666666666666664%)
+	Test 3: comprobación de existencia de atributo de nombre 'marca' (16.666666666666664%)
+	Test 4: comprobación del valor asignado por el corrector al atributo de nombre 'marca' (16.666666666666664%)
+	Test 5: comprobación de existencia de atributo de nombre 'puntos' (16.666666666666664%)
+	Test 6: comprobación del valor asignado por el corrector al atributo de nombre 'puntos' (16.666666666666664%)
+		Puntos obtenidos: 2.0. Puntos acumulados: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="test02_GetPuntos" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0.001">
+    <system-out><![CDATA[
+MarcaEnEvento::getPuntos(...). Valor: 1.0
+		Puntos obtenidos: 1.0. Puntos acumulados: 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="test03_CalcularPuntosEvento" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0.001">
+    <system-out><![CDATA[
+MarcaEnEvento::calcularPuntosEvento(...). Valor: 2.0
+		Puntos obtenidos: 2.0. Puntos acumulados: 5.0
+]]></system-out>
+  </testcase>
+  <testcase name="test04_getUnidadMarcaEnEvento" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0">
+    <system-out><![CDATA[
+MarcaEnEvento::getUnidadMarcaEnEvento(...). Valor: 1.0
+		Puntos obtenidos: 1.0. Puntos acumulados: 6.0
+]]></system-out>
+  </testcase>
+  <testcase name="test05_getListaEventos" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0.004">
+    <system-out><![CDATA[
+MarcaEnEvento::getListaEventos(...). Valor: 2.0
+		Puntos obtenidos: 2.0. Puntos acumulados: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="test06_toString" classname="edu.upc.etsetb.poo.decathlon1.MarcaEnEventoTest" time="0">
+    <system-out><![CDATA[
+MarcaEnEvento::toString(...). Valor: 2.0
+		Puntos obtenidos: 2.0. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0.001">
+    <system-out><![CDATA[
+Atleta::Atleta(). Valor: 1.0
+	Test 1: comprobación de existencia de atributo de nombre 'nombre' (10.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'nombre' (10.0%)
+	Test 3: comprobación de existencia de atributo de nombre 'nacionalidad' (10.0%)
+	Test 4: comprobación del valor asignado por el corrector al atributo de nombre 'nacionalidad' (10.0%)
+	Test 5: comprobación de existencia de atributo de nombre 'numInscripcion' (10.0%)
+	Test 6: comprobación del valor asignado por el corrector al atributo de nombre 'numInscripcion' (10.0%)
+	Test 7: comprobación de existencia de atributo de nombre 'puntos' (10.0%)
+	Test 8: comprobación del valor asignado por el corrector al atributo de nombre 'puntos' (10.0%)
+	Test 9: Comprobación de existencia del atributo de nombre 'marcas' (0.05)
+	Test 10: Comprobación de que el atributo de nombre 'marcas' es un array de MarcaEvento
+	Test 11: Comprobación de que el array tiene null en todas sus posiciones
+		Puntos obtenidos: 1.0. Puntos acumulados: 1.0
+]]></system-out>
+  </testcase>
+  <testcase name="test02_GetNumInscripcion" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0">
+    <system-out><![CDATA[
+Atleta::getNumInscripcion(). Valor: 0.5
+	Test 1: comprobar que se retorna el valor de  'nunInscripcion' al invocar este método.
+		Puntos obtenidos: 0.5. Puntos acumulados: 1.5
+]]></system-out>
+  </testcase>
+  <testcase name="test03_GetNombre" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0.001">
+    <system-out><![CDATA[
+Atleta::getNombre(). Valor: 0.5
+	Test 1: comprobar que se retorna el valor de  'nombre' al invocar este método
+		Puntos obtenidos: 0.5. Puntos acumulados: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="test04_GetNacionalidad" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0">
+    <system-out><![CDATA[
+Atleta::getNacionalidad(). Valor: 0.5
+	Test 1: comprobar que se retorna el valor de  'nacionalidad' al invocar este método.
+		Puntos obtenidos: 0.5. Puntos acumulados: 2.5
+]]></system-out>
+  </testcase>
+  <testcase name="test05_GetPuntos" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0">
+    <system-out><![CDATA[
+Atleta::getPuntos(). Valor: 0.5
+Test 1: comprobar que se retorna el valor de  'puntos' al invocar este método.
+		Puntos obtenidos: 0.5. Puntos acumulados: 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="test06_AnyadirMarcaEnEvento" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0.001">
+    <system-out><![CDATA[
+Atleta::anyadirMarcaEnEvento(). Valor: 2.0
+	Test 1: comprobar que al añadir una marca a un evento el atributo  'puntos' queda actualizado correctamente.
+		Puntos obtenidos: 2.0. Puntos acumulados: 5.0
+]]></system-out>
+  </testcase>
+  <testcase name="test07_calcularPuntos" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0.001">
+    <system-out><![CDATA[
+Atleta::calcularPuntos(). Valor: 3.0
+	Test 1: comprobar que al añadir una nueva marca a un evento el atributo  'puntos' queda actualizado correctamente.
+		Puntos obtenidos: 3.0. Puntos acumulados: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="test08_ToString" classname="edu.upc.etsetb.poo.decathlon1.AtletaTest" time="0.003">
+    <system-out><![CDATA[
+Atleta::toString(). Valor: 2.0
+	  Comprobando número de inscripción
+	  Comprobando nombre
+	  Comprobando nacionalidad
+	  Comprobando 100 metros lisos
+	  Comprobando salto de longitud
+	  Comprobando lanzamiento de peso
+	  Comprobando salto de altura
+	  Comprobando salto de altura
+	  Comprobando puntos totales
+		Puntos obtenidos: 2.0. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.ClasificacionTest" time="0.002">
+    <system-out><![CDATA[
+Clasificacion::Clasificacion(...). Valor: 2.0
+	Test 1: comprobación de existencia de atributo de nombre 'numAtletas' (20.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'numAtletas' (20.0%)
+	Test 3: Comprobación de existencia del atributo de nombre 'atletas' (20%)
+	Test 4: Comprobación de que el atributo de nombre 'atletas' es una LinkedList de atletas (20%).
+	Test 5: Comprobación de que 'atletas' al construirse es una lista vacía en vez de NULL (20%).
+		Puntos obtenidos: 2.0. Puntos acumulados: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="test02_anyadirAClasificacion" classname="edu.upc.etsetb.poo.decathlon1.ClasificacionTest" time="0.001">
+    <system-out><![CDATA[
+Clasificacion::anyadirAClasificacion(...). Valor: 5.0
+	Test 1: comprobar que se añaden los atletas en la  lista 'atletas' al invocar este método (20%)
+	Test 2: comprobar que la lista nunca es más grande que el atributo 'numAtletas' (40%)
+	Test 3: comprobar que la lista de atletas está ordenada (40%)
+		Puntos obtenidos: 5.0. Puntos acumulados: 7.0
+]]></system-out>
+  </testcase>
+  <testcase name="test03_toString" classname="edu.upc.etsetb.poo.decathlon1.ClasificacionTest" time="0.001">
+    <system-out><![CDATA[
+Clasificacion::toString(...). Valor: 3.0
+	Test 1: Formato de línea correcto (60%)
+	Test 2: Se recorre toda la lista de atletas (40%)
+		Puntos obtenidos: 3.0. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.004">
+    <system-out><![CDATA[
+Controlador::Controlador(...). Valor: 1.5
+
+	Prueba 1. Con argumento inicializa a false 
+	*Comprobar que se ha construido bien el objeto Competicion
+	Test 1: comprobación de existencia de atributo de nombre 'nombre' (50.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'nombre' (50.0%)
+	Test 3: comprobación de existencia de atributo de nombre 'fecha' (50.0%)
+	Test 4: comprobación del valor asignado por el corrector al atributo de nombre 'fecha' (50.0%)
+	Test 5: comprobación de existencia de atributo de nombre 'lugar' (50.0%)
+	Test 6: comprobación del valor asignado por el corrector al atributo de nombre 'lugar' (50.0%)
+	Test 7: comprobación de existencia de atributo de nombre 'numInscritos' (50.0%)
+	Test 8: comprobación del valor asignado por el corrector al atributo de nombre 'numInscritos' (50.0%)
+	*Comprobación del atributo iu
+	Test 1: comprobación de existencia de atributo de nombre 'iu' (50.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'iu' (50.0%)
+	*Comprobación del atributo atletas
+	Test 1: comprobación de existencia de atributo de nombre 'atletas' (50.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'atletas' (50.0%)
+
+	Prueba 2. Con argumento inicializa a true 
+	*Comprobar que se ha construido bien el objeto Competicion
+	Test 1: comprobación de existencia de atributo de nombre 'nombre' (50.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'nombre' (50.0%)
+	Test 3: comprobación de existencia de atributo de nombre 'fecha' (50.0%)
+	Test 4: comprobación del valor asignado por el corrector al atributo de nombre 'fecha' (50.0%)
+	Test 5: comprobación de existencia de atributo de nombre 'lugar' (50.0%)
+	Test 6: comprobación del valor asignado por el corrector al atributo de nombre 'lugar' (50.0%)
+	Test 7: comprobación de existencia de atributo de nombre 'numInscritos' (50.0%)
+	Test 8: comprobación del valor asignado por el corrector al atributo de nombre 'numInscritos' (50.0%)
+	*Comprobación del atributo iu
+	Test 1: comprobación de existencia de atributo de nombre 'iu' (50.0%)
+	Test 2: comprobación del valor asignado por el corrector al atributo de nombre 'iu' (50.0%)
+	*Comprobación del atributo atletas
+	Test 1. Comprobar si el atributo atletas es diferente de null y tiene 5 atletas inscritos, prueba indirecta de que se han inscrito atletas
+
+		Puntos obtenidos: 1.5. Puntos acumulados: 1.5
+]]></system-out>
+  </testcase>
+  <testcase name="test02_inscribirAtleta" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.001">
+    <system-out><![CDATA[
+Controlador::inscribirAtleta(...). Valor: 1.5
+	Comprobar que se ha creado un objeto Atleta y se ha añadido al contenedor de atletas
+	Comprobar que el Atleta creado y añadido tiene el número de inscripción adecuado
+	Comprobar que el Atleta creado y añadido tiene el nombre pasado como argumento
+	Comprobar que el Atleta creado y añadido tiene la nacionalidad pasada como argumento
+		Puntos obtenidos: 1.5. Puntos acumulados: 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="test03_getInfoCompeticion" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.001">
+    <system-out><![CDATA[
+Controlador::getInfoCompeticion(...). Valor: 0.5
+		Puntos obtenidos: 0.5. Puntos acumulados: 3.5
+]]></system-out>
+  </testcase>
+  <testcase name="test04_numInscritosEnCompeticion" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.001">
+    <system-out><![CDATA[
+Controlador::numInscritosEnCompeticion(...). Valor: 0.5
+		Puntos obtenidos: 0.5. Puntos acumulados: 4.0
+]]></system-out>
+  </testcase>
+  <testcase name="test05_anyadirMarcaEnEventoDeUnAtleta" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.001">
+    <system-out><![CDATA[
+Controlador::anyadirMarcaEnEventoDeUnAtleta(...). Valor: 3.0
+	Caso 1: no hay ningún atleta inscrito
+	Caso 2.1: el número de inscripción es negativa
+	Caso 2.2: el número supera al número de atletas inscritos
+	Caso 3.1: el identificador del evento es negativo
+	Caso 3.2: el identificador del evento supera al número de eventos registrados MarcaEnEvento.NUM_EVENTOS) (5)
+	Caso 4: se añade una marca de un atleta en un evento correctos
+	  Prueba 1: el método devuelve Controlador.RESULTADO_OK (0)
+	  Prueba 2: se ha generado un nuevo objeto MarcaEnEvento
+	  Prueba 3: el evento del objeto MarcaEnEvento es correcta
+	  Prueba 4: la marca del objeto MarcaEnEvento es correcta
+	  Prueba 5: los puntos del objeto MarcaEvento son correctos
+	  Prueba 6: los puntos totales del atleta se han actualizado correctamente
+		Puntos obtenidos: 3.0. Puntos acumulados: 7.0
+]]></system-out>
+  </testcase>
+  <testcase name="test06_getInfoAtleta" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0.003">
+    <system-out><![CDATA[
+Controlador::getInfoAtleta(...). Valor: 0.5
+	  Comprobando número de inscripción
+	  Comprobando nombre
+	  Comprobando nacionalidad
+	  Comprobando 100 metros lisos
+	  Comprobando salto de longitud
+	  Comprobando lanzamiento de peso
+	  Comprobando salto de altura
+	  Comprobando salto de altura
+	  Comprobando puntos totales
+		Puntos obtenidos: 0.5. Puntos acumulados: 7.5
+]]></system-out>
+  </testcase>
+  <testcase name="test07_getClasificacion" classname="edu.upc.etsetb.poo.decathlon1.casosdeuso.ControladorTest" time="0">
+    <system-out><![CDATA[
+Controlador::getClasificacion()(...). Valor: 2.5
+	Caso 1. No hay atletas inscritos
+	Caso 1. Se pasa un número de atletas erróneo
+	  Se pasa 0 como argumento
+	  Se pasa un argumento negativo
+	  Se pasa un argumento mayor que el número de atletas inscritos
+	Caso 3. Se pasa un argumento igual al número de atletas inscritos
+		Puntos obtenidos: 2.5. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+  <testcase name="test01_Constructor" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.001">
+    <system-out><![CDATA[
+InterficieUsuario::InterficieUsuario(...). Valor: 1.0
+      Caso 1: comprobar que se ha creado el atributo de tipo Controlador
+      Caso 2: comprobar que se ha invocado correctamente al constructor con argumento inicializa a true y se han creado los atletas desde el método Controlador::inicializaConAtletasYMarcasIniciales()
+      Caso 3: comprobar que se ha invocado correctamente al constructor con argumento inicializa a false y NO se han creado los atletas
+		Puntos obtenidos: 1.0. Puntos acumulados: 1.0
+]]></system-out>
+  </testcase>
+  <testcase name="test02_inscribirAtleta" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.002">
+    <system-out><![CDATA[
+InterficieUsuario::inscribirAtleta(...). Valor: 1.0
+  Caso 1: comprobar que se invoca a método inscribirAtleta() de clase Controlador, pasándole valores adecuados como parámetro.
+		Puntos obtenidos: 1.0. Puntos acumulados: 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="test03_mostrarCompeticion" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.002">
+    <system-out><![CDATA[
+InterficieUsuario::mostrarCompeticion(...). Valor: 1.0
+  Caso 1: comprobar que se invoca a método getInfoCompeticion() de clase Controlador.
+null
+		Puntos obtenidos: 1.0. Puntos acumulados: 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="test04_mostrarAtleta" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.001">
+    <system-out><![CDATA[
+InterficieUsuario::mostrarAtleta(...). Valor: 1.0
+  Caso 1: comprobar que se invoca a método getInfoAtleta() de clase Controlador y que recibe correctamente número de inscripción.
+null
+		Puntos obtenidos: 1.0. Puntos acumulados: 4.0
+]]></system-out>
+  </testcase>
+  <testcase name="test05_anyadirMarcaEnEventoDeUnAtleta" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.006">
+    <system-out><![CDATA[
+InterficieUsuario::anyadirMarcaEnEventoDeUnAtleta(...). Valor: 2.0
+  Caso 1: comprobar que se invoca método anyadirMarcaEnEventoDeUnAtleta() de clase Controlador. Además, se muestra el mensaje adecuado por la consola si devuelve el código de error NO_ATLETAS_INSCRITOS.
+  Caso 2:  comprobar que se invoca método anyadirMarcaEnEventoDeUnAtleta() de clase Controlador. Además, se muestra el mensaje adecuado por la consola si devuelve el código de error NUM_INSCRIPCION_ERRONEO.
+  Caso 3: comprobar que se invoca método anyadirMarcaEnEventoDeUnAtleta() de clase Controlador. Además, se muestra el mensaje adecuado por la consola si devuelve el código de error TIPO_DE_EVENTO_ERRONEO.
+  Caso 4:  comprobar que se invoca método anyadirMarcaEnEventoDeUnAtleta() de clase Controlador. Además, se muestra el mensaje adecuado por la consola si devuelve el código RESULTADO_OK.
+		Puntos obtenidos: 2.0. Puntos acumulados: 6.0
+]]></system-out>
+  </testcase>
+  <testcase name="test06_mostrarClasificacion" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.004">
+    <system-out><![CDATA[
+InterficieUsuario::mostrarClasificacion(...). Valor: 2.0
+  Caso 1: comprobar que se invoca a método getClasificacion() de clase Controlador, pasándole el valor adecuado como parámetro.
+null
+  Caso 2: comprobar que se muestra por la consola la información que devuelve el método getClasificacion() de clase Controlador.
+		Puntos obtenidos: 2.0. Puntos acumulados: 8.0
+]]></system-out>
+  </testcase>
+  <testcase name="test07_ejecutaComando" classname="edu.upc.etsetb.poo.decathlon1.iu.InterficieUsuarioTest" time="0.005">
+    <system-out><![CDATA[
+InterficieUsuario::ejecutaComando(...). Valor: 2.0
+  Caso 1: comprobar que el método detecta adecuadamente algunos comandos incorrectos.
+  Caso 2: comprobar que el comando ia acaba invocando el método adecuado de la clase Controlador, pasándole los valores correctos como parámetro.
+  Caso 3: comprobar que el comando mc acaba invocando el método adecuado de la clase Controlador, pasándole los valores correctos como parámetro.
+  Caso 4: comprobar que el comando ma acaba invocando el método adecuado de la clase Controlador, pasándole los valores correctos como parámetro.
+  Caso 5: comprobar que el comando am acaba invocando el método adecuado de la clase Controlador, pasándole los valores correctos como parámetro.
+
+		Puntos obtenidos: 2.0. Puntos acumulados: 10.0
+]]></system-out>
+  </testcase>
+</testsuite>

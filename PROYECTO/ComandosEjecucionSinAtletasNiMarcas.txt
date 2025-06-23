@@ -1,0 +1,30 @@
+UnaCompeticion:20250330:Valencia
+AY
+ZZ
+MC
+MA:6
+MA:1
+IA:Atleta-6:Pais-6
+CL
+AM:6:8:15.16
+AM:6:0:11.278
+AM:6:1:694
+AM:6:2:15.16
+AM:6:3: 199
+AM:6:4: 50.32
+MA:6
+IA:Atleta-7:Pais-7
+AM:7:0:10.395
+AM:7:1:776
+AM:7:2:18.40
+AM:7:3:221
+AM:7:4:46.17
+MA:7
+MA:1
+MA:2
+MA:3
+CL:0
+CL:3
+CL:2
+AY
+FI

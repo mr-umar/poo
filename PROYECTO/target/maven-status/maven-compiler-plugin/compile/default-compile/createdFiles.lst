@@ -1,0 +1,9 @@
+edu/upc/etsetb/poo/decathlon1/iu/RunnerDesdeTeclado.class
+edu/upc/etsetb/poo/decathlon1/dominio/Clasificacion.class
+edu/upc/etsetb/poo/decathlon1/dominio/Atleta.class
+edu/upc/etsetb/poo/decathlon1/iu/AutoRunnerDesdeArchivo.class
+edu/upc/etsetb/poo/decathlon1/iu/AutoRunnerDesdeMemoria.class
+edu/upc/etsetb/poo/decathlon1/dominio/Competicion.class
+edu/upc/etsetb/poo/decathlon1/casosdeuso/Controlador.class
+edu/upc/etsetb/poo/decathlon1/dominio/MarcaEnEvento.class
+edu/upc/etsetb/poo/decathlon1/iu/InterficieUsuario.class

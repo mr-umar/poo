@@ -1,0 +1,55 @@
+UnaCompeticion:20250330:Valencia
+ia:Kevin Mayer:FRA
+ia:Larbi Bourrada:ALG
+ia:Dimitriy Karpov:KAZ
+ia:Ashton Eaton:USA
+ia:Ashley Moloney:AUS
+am:1:0:11.278
+am:1:1:694
+am:1:2:15.16
+am:1:3:199
+am:1:4:50.32
+am:2:0:10.395
+am:2:0:10.395
+am:2:2:18.40
+am:2:3:221
+am:2:4:46.17
+am:3:0:10.827
+am:3:1:736
+am:3:2:16.79
+am:3:3:210
+am:3:4:48.19
+am:4:0:11.756
+am:4:1:651
+am:4:2:13.53
+am:4:3:188
+am:4:4:52.58
+AY
+ZZ
+MC
+MA:6
+MA:1
+IA:Atleta-6:Pais-6
+CL
+AM:6:8:15.16
+AM:6:0:11.278
+AM:6:1:694
+AM:6:2:15.16
+AM:6:3: 199
+AM:6:4: 50.32
+MA:6
+IA:Atleta-7:Pais-7
+AM:7:0:10.395
+AM:7:1:776
+AM:7:2:18.40
+AM:7:3:221
+AM:7:4:46.17
+MA:7
+MA:1
+MA:2
+MA:3
+CL:0
+CL:3
+CL:2
+AY
+FI
